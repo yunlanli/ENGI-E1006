@@ -1,0 +1,29 @@
+.container {
+	display:flex;
+	flex-direction: row;
+	width: 60%;
+	margin: 5rem auto 0 auto;
+}
+
+.bulletpoints{
+	width: 45%;
+}
+
+.profilepic {
+	background-image: url('/static/assets/self.jpg'); 
+	background-size: 100% 100%;
+	object-fit: contain;
+	height: 15rem;
+	width: 20rem;
+	margin-left: 5rem;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+	font-weight: 1000;
+}
+
+a:hover {
+	  color: #69b3e7;
+}
