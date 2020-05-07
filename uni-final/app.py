@@ -7,6 +7,7 @@ Created on Tue Apr 21 14:57:17 2020
 
 #import statements
 from flask import Flask, render_template
+from scripts.scrapeRanking import ranking
 
 #Flask app variable
 app = Flask(__name__)
@@ -18,7 +19,7 @@ def hello():
 
 @app.route("/rafa")
 def rafa():
-    return "Python Final Exam Website"
+    return ranking()
 
 @app.route("/RG")
 def playHighlights():
