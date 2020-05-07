@@ -22,7 +22,7 @@ def rafa():
 
 @app.route("/RG")
 def playHighlights():
-    return "Highlights"
+    return render_template("highlights.html")
 
 #start the server
 if __name__ == "__main__":
